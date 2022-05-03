@@ -45,12 +45,10 @@
                         <a href="#python">Python</a>
                         <a href="#mongo">MongoDB</a>
 			<a href="#git">Version Control Systems (Git)</a>
-			<a href="#maven">Maven</a>
-			<a href="#npm">npm</a>
-			<a href="#gradle">Gradle</a>
-			<a href="#jenkins">Jenkins</a>
+			<a href="#build">Build tools & Package manager</a>
+			<a href="#docker">Docker</a>
+			<a href="#artifactory">Artifactory</a>
 			<a href="#splunk">splunk</a>
-			<a href="#kubernetes">kubernetes</a>
                     </div>
                 </div>
                 <div class="ddgroup" onclick="">
@@ -189,81 +187,59 @@
     </div>
 	 
     <div class="inner">
-	<a name="maven"><h2>Maven</h2></a>
-        <p>Es una herramienta open-source, la cual simplifica procesos build como compilar y generar ejecutables a partir del código fuente. Cuando se utiliza Maven en los proyectos solo es necesario ejecutar el comando mvn install.</p>
-        <h2>¿Qué es Maven?</h2>
-            <p>Maven es una herramienta la cual facilita la parte del build a los desarrolladores, pues sin Maven los desarrolladores deben crear sus propios buil 
-		en cada proyecto. Con Maven también se pueden gestionar proyectos de software desde la comprobación de código hasta el despliegue de este.</p>
-        <h2>¿Para qué sirven Maven?</h2>
+	<a name="build"><h2>Build tools & Package manager</h2></a>
+        <p>Nos ayudan a  ejecutar herramientas en el momento de la compilación que fueron producidas por otro paquete.</p>
+        <h2>¿Qué es Build tools & Package manager?</h2>
+            <p>acilita la parte del build a los desarrolladores, pues sin estas herramientas los desarrolladores deben crear sus propios buil en cada proyecto.</p>
+        <h2>¿Para qué sirven Build tools & Package manager?</h2>
             <ul>
                 <li>Simplificar los procesos de build dentro de los proyectos.</li>
-                <li>Maven es capaz de encargarse de proyectos en Ruby, C # entre otros lenguajes.</li>
-                <li>Puede realizar procesos como lanzamientos, distribución, informes, compilaciones, documentación y SCM.</li>
+                <li>Permite administrar eficazmente tanto los módulos como el proyecto.</li>
+                <li>Sirve para la construcción de proyectos múltiples.</li>
             </ul>
         <h2>Características esenciales</h2>
             <ul>
                 <li>Mejora el desempeño del proyecto.</li>
-                <li>Cuenta con herramientas de control de versiones como Git.</li>
-                <li>Se recomienda utilizar Maven cuando los proyectos requieren una cantidad grande de dependencias.</li>
+                <li>Cuenta con una herramienta de línea de comandos.</li>
+                <li>Reduce el tiempo dedicado a preparar un entorno.</li>
             </ul>
     </div>
 	    
     <div class="inner">
-	<a name="npm"><h2>npm</h2></a>
-        <p>Node Package Manager mejor conocido como npm es un gestor de paquetes y es una parte esencial de Node.js, este se ejecuta en JavaScript.</p>
-        <h2>¿Qué es npm?</h2>
-            <p>npm es una herramienta por defecto de JavaScript que tiene la tarea de compartir e instalar paquetes, de esta manera es más fácil trabajar con Node  
-	       pues gracias a npm se puede obtener cualquier librería disponible.</p>
-        <h2>¿Para qué sirven npm?</h2>
+	<a name="docker"><h2>Docker</h2></a>
+        <p>Docker es una tecnología la cual se encarga de organizar contenedores como máquinas virtuales.</p>
+        <h2>¿Qué es Docker?</h2>
+            <p>Con Docker se tendrá la flexibilidad necesaria para crear, implementar, copiar y trasladar contenedores de un entorno a otro.</p>
+        <h2>¿Para qué sirven Docker?</h2>
             <ul>
-                <li>Con una línea de código se puede obtener cualquier librería.</li>
-                <li>Si existen nuevas versiones en las librerías instaladas estas se actualizan.</li>
-                <li>Permite agregar dependencias, distribuir paquetes y administrar eficazmente tanto los módulos como el proyecto.</li>
+                <li>Optimiza aplicaciones para la nube.</li>
+                <li>Con los contenedores es posible ejecutar varios procesos al mismo tiempo.</li>
+                <li>La implementación de nuevos hardware se puede realizar en cuestión de segundos.</li>
             </ul>
         <h2>Características esenciales</h2>
             <ul>
-                <li>Está desarrollado bajo el lenguaje de JavaScript.</li>
-                <li>Cuenta con un repositorio online el cual sirve para publicar paquetes de software libre y estos puedan ser usados dentro de proyectos Node.js</li>
-                <li>Tiene una herramienta para la terminal para interactuar con el repositorio online.</li>
-            </ul>
-    </div>
-	    
-    <div class="inner">
-	<a name="gradle"><h2>Gradle</h2></a>
-        <p>Es una herramienta de automatización de compilación de código abierto, la cual fue diseñada para la construcción de multiproyectos.</p>
-        <h2>¿Qué es Gradle?</h2>
-            <p>Gradle es una herramienta la cual  permite trabajar utilizando otros lenguajes y no solo Java.</p>
-        <h2>¿Para qué sirven Gradle?</h2>
-            <ul>
-                <li>Tiene la capacidad de soportar todo el proceso de vida del software.</li>
-                <li>Admite compilaciones incrementales de la clase java.</li>
-                <li>Permite crear la lógica de construcción personalizada a través de plugins.</li>
-            </ul>
-        <h2>Características esenciales</h2>
-            <ul>
-                <li>Cuenta con un sistema de gestión de dependencias sólido.</li>
-                <li>Gradle se basa en DSL, ya que se enfoca en resolver problemas específicos.</li>
-                <li>Proporciona a los desarrolladores herramientas y flexibilidad para gestionar los recursos de un proyecto.</li>
+                <li>Docker está diseñado a partir de la tecnología LXC.</li>
+                <li>Reduce las limitaciones y la complejidad necesarias dentro de la arquitectura de un sistema.</li>
+                <li>Docker tiene su propio sistema de archivos así como su propia pila de red.</li>
             </ul>
     </div>
 	 
     <div class="inner">
-	<a name="jenkins"><h2>Jenkins</h2></a>
-        <p>Jenkins es un servidor de código abierto el cual te ayudará a lograr un proceso de integración continua de manera automatizada.</p>
-        <h2>¿Qué es Jenkins?</h2>
-            <p>Jenkins es capaz de supervisar tareas repetitivas que surgen dentro del desarrollo de un proyecto, pues probará continuamente 
-		las compilaciones de este y de esta manera mostrará los errores que surjan a lo largo de las primeras etapas del desarrollo.</p>
-        <h2>¿Para qué sirven Jenkins?</h2>
+	<a name="artifactory"><h2>Artifactory</h2></a>
+        <p>Artifactory es un repositorio el cual ayudará a desplegar las dependencias que necesiten los proyectos en maven para su ciclo de vida.</p>
+        <h2>¿Qué es Artifactory?</h2>
+            <p>Es un repositorio compatible con paquetes de software creados por cualquier tecnología.</p>
+        <h2>¿Para qué sirven Artifactory?</h2>
             <ul>
-                <li>Automatiza, agiliza y aumenta el ritmo de la compilación así como de las pruebas de los proyectos.</li>
-                <li>Jenkins te permite ver el resultado de los tests.</li>
-                <li>Jenkins es capaz de generar y visualizar la documentación del proyecto.</li>
+                <li>Se puede administrar cualquier pieza de software.</li>
+                <li>Evitar que los equipos de trabajo usen diversos repositorios.</li>
+                <li>Es posible hacer una entrega del software, haciéndola más rápida y evitando problemas en el despliegue.</li>
             </ul>
         <h2>Características esenciales</h2>
             <ul>
-                <li>Está escrito en Java.</li>
-                <li>Se puede implementar a lo largo de todo el ciclo de vida del proyecto.</li>
-                <li>Es una herramienta opensource.</li>
+                <li>Está basado en JCR.</li>
+                <li>Su configuración depende de un único archivo XML.</li>
+                <li>Puede trabajar con cualquier lenguaje.</li>
             </ul>
     </div>
 	   
@@ -284,26 +260,6 @@
                 <li>Aceptar diversos tipos de datos como pueden ser .csv, json, formatos de registro, etc.</li>
                 <li>splunk es una plataforma que se puede implementar en Cloud, SaaS, Web, Mac (desktop), 
 		    Windows (desktop), Windows (local), Linux (local), Android (móvil), iPhone (móvil).</li>
-            </ul>
-    </div>
-	    
-    <div class="inner">
-	<a name="kubernetes"><h2>kubernetes</h2></a>
-        <p>kubernetes es una plataforma open source que ayuda a la  organización en contenedores los cuales automatizan muchos procesos manuales que 
-	   tienen que ver con la implementación, la gestión y el ajuste de las aplicaciones que se alojan en ellos.</p>
-        <h2>¿Qué es kubernetes?</h2>
-            <p>Es una plataforma en la cual puedes alojar aplicaciones desarrolladas directamente en la nube.</p>
-        <h2>¿Para qué sirven kubernetes?</h2>
-            <ul>
-                <li>Se puede implementar una infraestructura basada en contenedores.</li>
-                <li>Kubernetes automatiza las tareas operativas.</li>
-                <li>Administra y une contenedores como lo pueden ser contraseñas, tokens, claves SSH y otra información confidencial.</li>
-            </ul>
-        <h2>Características esenciales</h2>
-            <ul>
-                <li>Se pueden programar y ejecutar los contenedores en clústeres de máquinas virtuales o físicas.</li>
-                <li>Amplía las aplicaciones en contenedores y sus recursos de acuerdo a sus necesidades.</li>
-                <li>Permite que las aplicaciones se recuperen automáticamente reiniciando o replicando los contenedores.</li>
             </ul>
     </div>
 
